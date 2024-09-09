@@ -21,7 +21,7 @@ This project is a **Fullstack MBA Challenge**, simulating a customer loyalty car
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-repo/member-club.git
+   git clone https://github.com/judsonjuniorr/members-club
    cd member-club
    ```
 
