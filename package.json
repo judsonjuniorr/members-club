@@ -1,0 +1,28 @@
+{
+  "name": "members-club",
+  "module": "index.ts",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Member Club is a customer loyalty card system built for the Fullstack MBA Challenge. It includes a JSON-based API powered by Bun and a web interface to manage and search customer details. Start the API with `bun start` and access the frontend by opening `index.html`. Perfect for learning and applying full-stack development concepts.",
+  "author": {
+    "name": "Judson Cairo",
+    "email": "judsonjuniorr@gmail.com",
+    "url": "https://judsoncairo.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/judsonjuniorr/members-club"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "json-server": "^1.0.0-beta.2"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json --port 3001"
+  }
+}
